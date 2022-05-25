@@ -1,3 +1,19 @@
+# User config
+config.cfg
+
+# Fonts
+*.otf
+*.ttf
+
+# VS files
+.vs/
+
+# Database
+dictionaries/
+
+# ImGui code
+ui/imgui/
+
 # Prerequisites
 *.d
 

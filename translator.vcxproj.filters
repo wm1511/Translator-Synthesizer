@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ui\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\imgui\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\imgui\imgui_impl_vulkan.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ui\ui.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\Synthesis.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\Translation.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="data\Dictionary.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="data\Text.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\Wrapper.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="data\Holder.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\Config.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\input.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{f293ceaf-f699-40aa-8927-2c7e450d2fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{5b31a512-fedd-4e97-9891-1b6627fd6ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic">
+      <UniqueIdentifier>{3d7af3d7-2955-4e1d-a383-66e533b38f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{c8346d22-1713-404e-ba21-95c206fa0d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="python">
+      <UniqueIdentifier>{beff2a91-5085-4dec-870d-673ffcd1f13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{ace855d9-34d9-4ffc-b9e0-04049ad600fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\imgui\imgui_impl_glfw.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\imgui\imgui_impl_vulkan.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\Wrapper.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\Synthesis.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\Translation.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="data\Dictionary.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\Text.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\Holder.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\Config.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\input.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="python\synthesize_locally.py">
+      <Filter>python</Filter>
+    </None>
+    <None Include="python\synthesize_to_file.py">
+      <Filter>python</Filter>
+    </None>
+  </ItemGroup>
+</Project>
